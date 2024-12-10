@@ -38,10 +38,8 @@ install_powershell() {
         apt-get update
         
         # Install PowerShell
-        apt-get install -y powershell
+        sudo snap install powershell --classic
         
-        # Cleanup
-        rm packages-microsoft-prod.deb
     fi
 }
 
@@ -90,3 +88,4 @@ main() {
 
 # Execute main function
 main "$@"
+
