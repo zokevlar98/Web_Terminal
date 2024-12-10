@@ -38,7 +38,7 @@ install_powershell() {
         apt-get update
         
         # Install PowerShell
-        sudo snap install powershell --classic
+        snap install powershell --classic
         
     fi
 }
