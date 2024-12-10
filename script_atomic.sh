@@ -13,7 +13,6 @@ fi
 echo "Installing PowerShell..."
 snap install powershell --classic
 
-# Wait a moment for PowerShell to be properly installed
 sleep 2
 
 # Run Atomic Red Team installation commands

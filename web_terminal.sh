@@ -2,8 +2,6 @@
 
 set -e
 
-# Mise à jour du système
-echo "Mise à jour du système..."
 sudo apt update -y
 sudo apt upgrade -y
 
@@ -35,5 +33,5 @@ fi
 echo "Exécution de WebSSH en arrière-plan..."
 nohup /home/$(whoami)/webssh-env/bin/wssh &
 
-# Affichage du message de succès
+
 echo "WebSSH est maintenant installé et en cours d'exécution. Accédez-y via http://127.0.0.1:8888"
